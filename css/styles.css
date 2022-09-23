@@ -1,0 +1,189 @@
+/* reset */
+
+body{
+    /*background-color:#202020 ;*/
+    font-family: 'Montserrat', sans-serif;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+/* MAIN Estilos del fondo y el texto principal*/
+.izquierda{
+    background: #143F6B;
+    height: 100vh;
+    width: 40%;
+   
+}
+.derecha{
+    background-image: url(../images/image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 100vh;
+    
+}
+
+#pantalla-dividida{
+    display: flex;
+
+
+}
+
+.new{
+    color:#06223f;
+    font-size: 300px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 150px;
+    opacity: 75%;
+}
+#nueva-co{
+color: #F05454;
+position: absolute;
+margin-top: 200px;
+margin-left: 100px;
+font-size: 65px;
+font-weight: initial;
+opacity: 75%;
+font-family: 'Abril Fatface', cursive;
+}
+
+section div p{
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+/* Estilo del boton "historia" */
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: antiquewhite;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-left: 400px;
+    border-radius: 15px;
+    background-color: #F05454;
+}
+
+.btn:hover{
+    background: #F05454 ;
+    box-shadow: 0 0 10px #F05454, 0 0 40px #F05454, 0 0 80px #F05454;
+}
+
+
+
+/*estilos del header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 95px;
+    background-color: #2B2B2B;
+    align-items: center;
+    padding: 10px;
+    /*margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+}
+
+.nombre-01{
+    font-size: 4px0px;
+    font-weight: lighter;
+}
+.logo-home{
+    display: flex;
+    align-items: center;
+}
+
+.logo-home img{
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#search{
+    height: 30px;
+}
+
+
+
+
+
+
+/* Estilos en nav para links */
+a{
+   text-decoration: none;
+   color: antiquewhite;
+}
+
+header a h1 span{
+    color: rgb(255, 112, 112);
+    font-weight: bold;
+}
+nav a{
+    font-weight: bold;
+    margin-left: 150px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: rgb(255, 112, 112);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* estilos del footer*/
+
+.footer-inicio{
+    display: flex;
+    flex-direction: column;
+    background-color: #2B2B2B ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 165px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.derechos{
+    text-align: center;
+
+}
+
+.footer-inicio div img{
+    height: 35px;
+    padding: 10px;
+    transition: 0.5;
+}
+
+.footer-inicio div img:hover{
+    height: 37px;
+    
+
+}
+
+/* estilos paginas exteriores*/
+
+.whiteback{
+    color: #06223f;
+}
